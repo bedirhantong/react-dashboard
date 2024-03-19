@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ForgotPassword.css"; // Import the CSS file
+import "./ForgotPassword.css";
 import logo from "../Assets/akdeniz_logo.png";
 
 export const ForgotPassword = () => {
@@ -10,7 +10,6 @@ export const ForgotPassword = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Replace with your actual API call or backend logic
     try {
       const response = await fetch("/api/forgot-password", {
         method: "POST",

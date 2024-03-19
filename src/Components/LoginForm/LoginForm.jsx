@@ -15,8 +15,8 @@ export const LoginForm = () => {
         <div className="input-box">
           <input
             className="input-holder"
-            type="text"
-            placeholder="Username"
+            type="email"
+            placeholder="User email"
             required
           />
           <FaUser className="icon" />
